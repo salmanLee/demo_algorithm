@@ -4,14 +4,19 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
 }
 .father {
+  padding-top: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
 }
 .waterwall {
   float: left;
   width: 30%;
   height: 30vw;
-  background-color: aquamarine;
 }
 .waterwall:nth-child(3n-2) {
   margin-right: 5%;
@@ -19,5 +24,14 @@ body {
 .waterwall:nth-child(3n) {
   margin-left: 5%;
 }
+.waterwall:nth-of-type(n+4){
+  margin-top: 5vw;
+}
 .box {
+  width: 100%;
+  height: 100%;
+  border-width: .2rem;
+  border-style: solid;
+  border-color: burlywood;
+  border-radius: .6rem;
 }

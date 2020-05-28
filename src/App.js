@@ -18,6 +18,9 @@ function App() {
         <article className={"waterwall"}>
           <div className={"box"}>史蒂夫收到了看风景kls</div>
         </article>
+        <article className={"waterwall"}>
+          <div className={"box"}>史蒂夫收到了看风景kls</div>
+        </article>
       </section>
     </div>
   );
